@@ -52,3 +52,49 @@ button.btn {
 
 
 /*=====================Stay Focused section End============================*/
+
+
+/*=====================My Mission in 2022 Start==========================*/
+
+.mission-2022{
+    width: 85%;
+    margin: 0 auto;
+}
+.three-box{
+    display: flex;
+    justify-content: space-evenly;
+}
+.mission-2022 .m-h {
+    text-align: center;
+    font-size: 57px;
+    color: #000000d1;
+}
+.mission-2022 .m-h span{
+    color: orange;
+}
+.mission-2022 img{
+    width: 40%;
+}
+.mission {
+    background-color: #6f628018;
+}
+.vission {
+    background-color: #7055644d;
+}
+.goals {
+    background-color: #617a6b52;
+}
+.for-three-box {
+    padding: 30px;
+    margin: 10px;
+    border-radius: 20px;
+}
+.for-three-box h3 {
+    font-size: 25px;
+    font-weight: bold;
+}
+.for-three-box p {
+    font-size: 20px;
+}
+
+/*=====================My Mission in 2022 End==========================*/
