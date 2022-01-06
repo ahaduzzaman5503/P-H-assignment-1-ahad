@@ -29,7 +29,8 @@ font-family: 'Source Code Pro', monospace; */
     width: 85%;
     margin: 0 auto;
     display: flex;
-    padding: 100px;
+    padding-top: 30px;
+    padding-bottom: 12px;
 }
 .text-left{
     width: 40%;
