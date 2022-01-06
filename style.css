@@ -3,6 +3,27 @@ body{
     padding: 0;
     background-color: white;
 }
+
+h1, h2, h3, span{
+    font-family: 'Roboto', sans-serif;
+}
+button{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+p{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.815);
+}
+/* font-family: 'Inter', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Source Code Pro', monospace; */
+
 /*=====================Stay Focused section Start==========================*/
 .stay-focused{
     width: 85%;
@@ -30,6 +51,8 @@ body{
     font-size: 52px;
     display: inline;
     margin-left: 7px;
+    word-spacing: 10px;
+    letter-spacing: 2px;
 }
 .heading .color{
     color: rgb(39, 40, 138);
@@ -77,7 +100,7 @@ button.btn {
     width: 40%;
 }
 .mission {
-    background-color: #6f628018;
+    background-color: #8c915d49;
 }
 .vission {
     background-color: #7055644d;
@@ -104,21 +127,26 @@ button.btn {
 /*=====================Develop Without Limits Start==========================*/
 
 .develop{
-    background-image: url(images/shapes/dream-bg.png);
-    background-repeat: no-repeat;
+    background-color: white;
 }
 .develop-two-part{
     width: 85%;
     margin: 0 auto;
     display: flex;
 }
-.coding-girls{
+.coding-girls {
     width: 40%;
     padding: 20px 20px;
     margin-left: 20px;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 45%;
+    background-position-x: left;
+    background-position-y: center;
 }
 .coding-girls img{
     width: 90%;
+    float: right;
     
 }
 .develop-text{
@@ -135,5 +163,109 @@ button.btn {
     font-size: 22px;
 }
 
-/*=====================Develop Without Limits End============================*/
+/*=========================Develop Without Limits End========================*/
+
+/*========================Know our Global Community Start====================*/
+
+.know-our{
+    margin-top: 100px;
+}
+
+.text-pic-part{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+}
+.know-text{
+    width: 60%;
+    padding: 10px;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+.know-pic{
+    width: 60%;
+    padding: 20px 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 35%;
+    background-position-x: right;
+    background-position-y: bottom;
+}
+
+.know-pic img{
+    width: 85%;
+}
+.know-text span{
+    font-weight: bold;
+    font-size: 50px;
+}
+.know-text p {
+    font-size: 22px;
+}
+
+
+/*========================Know our Global Community End====================*/
+
+/*=====================Create from wonself Start======================*/
+
+.wonself{
+    width: 85%;
+    margin: 0 auto;
+}
+.fore-post{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+.box-one {
+    border: 1px solid yellow;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 15px;
+    background-color: #a0cdcab0;
+}
+.box-one img{
+    width: 100%;
+
+}
+.wonself h1{
+    font-size: 40px;
+}
+.wonself span{
+    color: orange;
+}
+.for-button{
+    position: relative;
+}
+.vasa{
+    position: absolute;
+}
+/*=======================Create from wonself End======================*/
+
+
+/*===========================footer Start============================*/
+
+.footer {
+    width: 100%;
+    background-color: #000000de;
+    margin: o auto;
+    padding: 20px;
+}
+.footer h1 {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+.footer span{
+    color: rgba(212, 31, 31, 0.89);
+}
+.footer p {
+    color: white;
+    font-size: 17px;
+    text-align: center;
+}
+/*=======================Footer End======================*/
  
